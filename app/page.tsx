@@ -2,7 +2,7 @@ export default function Home() {
 
     return (
       <>
-      <br />
+     
         <h1 className="m-5 text-3xl"> Welcome to my Animal Crossing Guide!</h1>
 
         <h1 className="text-center text-xl font-bold underline m-4 text-indigo-800"> Animal Crossing History</h1>

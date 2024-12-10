@@ -9,8 +9,10 @@ export default function Page() {
           I really enjoy Animal Crossing New Horzions. I wanted to give tips and tricks to 
           all those who are starting the game.</p>
 
-        <p className='mx-10 my-2'>January 2025</p>
-       
+          <p className='mx-10 my-2'>This website is currently a work in progress, 
+            some things will be missing but by January 2025 everything should be up and running.</p>
+
+      
 
     
 
