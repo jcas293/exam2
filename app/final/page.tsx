@@ -1,29 +1,28 @@
 export default function Page(){
-    return(
+    return (
         <>
+
         <h1 className="text-3xl m-5 ml-5"> Final Exam</h1>
+        <h2 className = "text-m m-5 ml-5 "> Fill out the form below if you want to be notified whenever a new post appears!</h2>
+
         <form> 
-         <label htmlFor="product" className= "ml-5">Product Description </label>
-         <input type="text" name="product" id="product" className= "m-5 text-black bg-blue-200" />
+        <label htmlFor="name" className="ml-5 m-5 ">
+        Name: 
+       <input type="text" className="input input-bordered input-primary input-sm w-full max-w-xs" placeholder="Enter your name" />
+      </label>
+      <label htmlFor="email" className="ml-5">
+       Email: 
+     <input type="text" className="input input-bordered input-primary input-sm w-full max-w-xs" placeholder="Enter your email" />
+
+      </label>
+
+         <label htmlFor="product" className= "ml-5">Enter your name: </label>
+         <input type="text" placeholder="Type name here" className="input input-bordered input-primary input-sm w-full max-w-xs" />
         <br />
+        <button className="btn btn-accent">Submit</button>
         
-        <label for="cars">Choose a villager:</label>
-<select name="villager" id="villager">
-  <optgroup label="Boys">
-    <option value="Bubbles">Bubbles</option>
-    <option value="Chai">Chai</option>
-  </optgroup>
-  <optgroup label="Girls">
-    <option value="mercedes">Mercedes</option>
-    <option value="audi">Audi</option>
-  </optgroup>
-</select>
 
-
-         <button type="button" className="ml-5 text-white bg-purple-700 hover:bg-purple-800 focus:outline-none focus:ring-4 focus:ring-purple-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">Save</button>
-        </form>
-
-
+      </form>
 
 
         </>
