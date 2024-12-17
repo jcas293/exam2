@@ -49,7 +49,7 @@ export default function Home() {
             some things will be missing but by January 2025 everything should be up and running.</p>
 
           <h1 className="text-center text-xl font-bold underline m-4 text-indigo-800"> Start Here! </h1>
-          <p className="mx-10 my-2">Please press <a href="/homepage" className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">here</a> to go to this websites offical homepage.</p>
+          <p className="mx-10 my-2">Please press <a href="/homepage" className="font-medium text-blue-600 underline dark:text-blue-500 hover:no-underline">here</a> to go to this websites official homepage.</p>
 
        
         
