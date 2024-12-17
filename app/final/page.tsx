@@ -3,12 +3,12 @@ export default function Page(){
         <>
 
         <h1 className = "text-3xl m-5 ml-5"> Final exam </h1>
-        <h2 className= "text-m m-5 ml-5"> Fill out the form below to create an account: </h2>
+        <h2 className= "text-m m-5 ml-5"> Fill out the form below to create an account and subscribe to our newsletter! </h2>
 
      <form className="w-full max-w-sm">
   <div className="md:flex md:items-center mb-6">
     <div className="md:w-1/3">
-      <label  className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-first-name">
+      <label  className="block text-black-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-first-name">
         First Name
       </label>
     </div>
@@ -19,7 +19,7 @@ export default function Page(){
 
   <div className="md:flex md:items-center mb-6">
     <div className="md:w-1/3">
-      <label  className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-last-name">
+      <label  className="block text-black-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-last-name">
         Last Name
       </label>
     </div>
@@ -30,7 +30,7 @@ export default function Page(){
 
   <div className="md:flex md:items-center mb-6">
     <div className="md:w-1/3">
-      <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-email">
+      <label className="block text-black-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-email">
         E-mail
       </label>
     </div>
@@ -41,7 +41,7 @@ export default function Page(){
 
   <div className="md:flex md:items-center mb-6">
     <div className="md:w-1/3">
-      <label className="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-password">
+      <label className="block text-black-500 font-bold md:text-right mb-1 md:mb-0 pr-4" htmlFor="inline-password">
         Password
       </label>
     </div>
@@ -59,7 +59,7 @@ export default function Page(){
 
 
   <div>
-    <label className="block text-gray-500 font-bold m-5 ml-5 mb-1 md:mb-0 pr-4 " htmlFor="frequency"> Frequency of notifications: 
+    <label className="text-black-500 font-bold m-5 ml-5" htmlFor="frequency"> Frequency of notifications: 
     </label>
       <select className= "bg-gray-200 m-5 ml-5 md:w-2/3" name="Select frequency of emails" id="frequency">
         <option value= "daily">Daily</option>
