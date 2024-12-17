@@ -2,6 +2,8 @@ export default function Page() {
   return (
     <>
       <h1 className="text-center text-xl font-bold underline m-4 text-indigo-800"> Tips and Tricks: </h1>
+
+      <img className="m-5 ml-5" src="https://image-cdn.essentiallysports.com/wp-content/uploads/20200913213814/Animal-Crossing-New-Horizons-PC-Unlocked-Version-Download-Full-Free-Game-Setup-1600x900-5.jpg?width=900" alt="Animal Crossing Image" />
       <p className='mx-10 my-2'>Welcome to our Animal Crossing: New Horizons Tips and Tricks hub! Whether you're a new islander or a seasoned resident, we’ve got all the insider tips you need to make your island thrive. From maximizing Bells and finding rare items to perfecting your island layout and keeping villagers happy, our guides will help you make the most of your gameplay. Dive in and turn your island into the paradise you’ve always dreamed of! Let's begin with some general tips!</p>
 
       <h1 className="text-center text-xl font-bold underline m-4 text-indigo-800"> Tip #1 </h1>
